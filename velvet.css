@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#nav-brand {
+    font-family: georgia;
+    margin-left: px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+    font-size: 29px;
+    color: purple;
+}
+img{
+    width: 44px;
+    margin: 5px;
+}
