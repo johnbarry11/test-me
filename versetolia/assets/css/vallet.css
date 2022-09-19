@@ -202,6 +202,7 @@ h3 {
 }
 .flex-item img{
     width: 370px;
+    position: relative;
     height: 366px;
 }
 .item {
