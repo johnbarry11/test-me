@@ -39,7 +39,7 @@ nav ul {
 nav ul li {
     margin: 10px;
 }
-button{
+nav button{
     font-family: 'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 38px;
     width: 112px;
@@ -101,7 +101,7 @@ section{
     left: 133px;
     bottom: -248px;
 }
-section img {
+#side img {
     width: auto;
     height: 300px;
     z-index: 1;
@@ -123,13 +123,40 @@ h1 {
     font-family: 'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     margin-top: -23px;
+} 
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px 20px;
 }
-input{
-    height: 38px;
-    width: 290px;
-    padding: 12px 20px;
-    background-color: white;
-    background-repeat: no-repeat;
+.search-bar input {
+    background: white;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+    background: white;
+    cursor: pointer;
+}
+.search-bar button img {
+    width: 72px;
+    height: 66px;
+    position: relative;
+    margin: 0px;
+    right: 12px;
 }
 #box {
     border: 3px solid #dcdcdc3d;
@@ -331,5 +358,272 @@ h3 {
     position: relative;
     font-weight: 800;
     bottom: -185px;
+    letter-spacing: 2px;
+}
+article {
+    background-color: purple;
+    color: white;
+    display: flex;
+    height: 510px;
+    width: 100%;
+    position: relative;
+    bottom: -215px;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.text img {
+    width: 590px;
+    height: 750px;
+    margin-top: -124px;
+}
+.tex h6 {
+    font-size: 120px;
+    margin: 0px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.tex p {
+    font-size: 24px;
+    font-family: Playfair Display;
+    font-weight: 600;
+    line-height: 155%;
+}
+.tex a {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 228px;
+}
+#top{
+    position: relative;
+    bottom: -360px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Playfair Display;
+    letter-spacing: 2px;
+    color: purple;
+}
+#section {
+    position: relative;
+    bottom: -360px;
+}
+.items {
+    position: absolute;
+    bottom: -23px;
+    background-color: #ffffff4d;
+    backdrop-filter: blur(6px);
+    width: 375px;
+    height: 174px;
+    left: 0px;
+    border-radius: 30px;
+    color: white;
+}
+.items img {
+    width: 110px;
+    position: absolute;
+    height: auto;
+    right: 138px;
+    bottom: 116px;
+}
+.items header {
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+    letter-spacing: 2px;
+    font-family: poppins, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+.items p{
+    position: absolute;
+    left: 21px;
+    bottom: 18px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: poppins;
+    line-height: 1.7;
+    
+}
+.tems {
+    background-color: purple;
+    color: white;
+    width: 375px;
+    height: 185px;
+    position: absolute;
+    bottom: -135px;
+    border-radius: 0 0 15px 15px;
+}
+.tems h5{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Playfair Display, 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.tems a {
+    background-color: white;
+    color: purple;
+    text-decoration: none;
+    padding: 11px;
+    position: absolute;
+    right: 70px;
+    width: 210px;
+    text-align: center;
+    bottom: 24px;
+    font-size: 17px;
+    border-radius: 7px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.tems img {
+    width: 36px;
+    height: auto;
+    bottom: 25px;
+    left: 62px;
+    position: absolute;
+}
+.tems p {
+    position: absolute;
+    left: 138px;
+    font-size: 12px;
+    font-family: poppins;
+    font-weight: 300;
+    top: 42px;
+    letter-spacing: 1px;
+}
+.tems a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.842),0 17px 50px 0 ;
+}
+.tems h6{
+    position: absolute;
+    bottom: 30px;
+    left: 19px;
+}
+footer{
+    position: relative;
+    bottom: -650px;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 210px;
+}
+#brand {
+    height: 79px;
+    margin-left: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 102px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'playfair display';
+}
+#brand img {
+    width: 47px;
+    margin: 8px;
+}
+#brand a{
+    text-decoration: none;
+    color: white;
+}
+#brand p {
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: 400;
+    position: absolute;
+    bottom: -40px;
+    left: 80px;
+}
+#tab {
+    display: flex;
+    position: absolute;
+    right: 750px;
+    top: 24px;
+}
+#red {
+    position: absolute;
+    left: 430px;
+    line-height: 2.0;
+    top: 27px;
+}
+#red ul {
+    list-style: none;
+}
+#red ul h2 a {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: Poppins;
+    text-decoration: none;
+}
+#red ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'poppins', 'Arial Narrow', Arial, sans-serif;
+}
+#ret {
+    bottom: -17px;
+    position: absolute;
+    left: 690px;
+    line-height: 2.0;
+}
+#ret ul {
+    list-style: none;
+}
+#ret ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'poppins', 'Arial Narrow', Arial, sans-serif;
+}
+#ret ul h2 a {
+    margin-left: -5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: Poppins;
+    text-decoration: none;
+}
+#info {
+    position: absolute;
+    right: 120px;
+    bottom: 35px;
+}
+#info h2 {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: -16px;
+}
+#email_input {
+    padding: 4px 18px;
+    width: 260px;
+    border-radius: 7px;
+    margin-bottom: -10px;
+}
+#info p {
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 400;
     letter-spacing: 2px;
 }
