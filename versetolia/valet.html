@@ -6,9 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/vallet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">
 </head>
 <body>
-    <nav>
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/pictures/Exclude.png">Versetolia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Versetolia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+            <button id="button"><a href="">Sign up</a></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <nav id="nav">
         <div id="nav-brand">
             <img src="assets/pictures/Exclude.png"><a href="">Versetolia</a></div>
             <ul>
@@ -17,188 +49,192 @@
                 <li><a href="">About us</a></li>
                 <li><a href="">Community</a></li>
             </ul>
-            <button><a href="">Sign up</a></button>
+            <button id="button"><a href="">Sign up</a></button>
     </nav>
-    <section>
-       <div class="pic">
-        <img src="assets/pictures/Marni 5.png" alt="toon">
-        <div id="side">
-            <img src="assets/pictures/Other 03.png" alt="laptop"></div>
-    </div>
-        <div id="demo">
-            <h1>Explore the Best <br> NFT market on the <br> METAVERSE</h1> 
-             <p>Explore the Metaverse</p>
-             <div class="contain">
-             <form action="https://www.google.com/search" class="search-bar">
-                <input type="text" placeholder="Search Artworks">
-                <button type="submit"><img src="assets/pictures/search.png"></button>
-             </form>
+  </nav>
+  <section>
+     <div class="pic">
+      <img src="assets/pictures/Marni 5.png" alt="toon">
+      <div id="side">
+          <img src="assets/pictures/Other 03.png" alt="laptop"></div>
+  </div>
+      <div id="demo">
+          <h1 id="di">Explore the Best <br> NFT market on the <br> METAVERSE</h1> 
+           <p>Explore the Metaverse</p>
+           <div class="contain">
+           <form action="https://www.google.com/search" class="search-bar">
+              <input type="text" placeholder="Search Artworks">
+              <button type="submit"><img src="assets/pictures/search.png"></button>
+           </form>
+          </div>
+              
+      </div>
+      <div id="box">
+          <h2 id="yen">Play to earn</h2>
+          <p>23.00 Eth</p>
+          <div id="pi"><img src="assets/pictures/Image.png" alt="gun"></div>
+          <img src="assets/pictures/Etherium-2.png" alt="Etherium">
+          <a href="">Get Started</a>
+      </div>
+  </section> 
+  <h3 id="three">Most Popular this week </h3>
+  <div id="col">
+      <div class="flex-container">
+          <div class="flex-item">
+            <div class="little">
+                <img src="assets/pictures/little.png">
             </div>
-                
-        </div>
-        <div id="box">
-            <h2>Play to earn</h2>
-            <p>23.00 Eth</p>
-            <div id="pi"><img src="assets/pictures/Image.png" alt="gun"></div>
-            <img src="assets/pictures/Etherium-2.png" alt="Etherium">
-            <a href="">Get Started</a>
-        </div>
-    </section> 
-    <h3>Most Popular this week </h3>
-    <div id="col">
-        <div class="flex-container">
-            <div class="flex-item">
-                <img src="assets/pictures/unsplash_bU8TeXhsPcY.png">
-                <div class="item">
-                    <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
-                    <header>Starting from</header>
-                    <p>2.0 Eth</p>
-                    <h4>Remaining time</h4>
-                    <aside>02:57:10</aside>
-                    <div class="little">
-                        <img src="assets/pictures/little.png">
-                    </div>
-                    <div class="tem">
-                         <h5>Ismorphic Design</h5>
-                         <a href="#">Place Bid</a>
-                         <h6>Total Bidders</h6>
-                         <img src="assets/pictures/Group 6879.png">
-                         <p>2 Users</p>
-                    </div>
-                    </div>
-            </div>
-            <div class="flex-item"><img src="assets/pictures/unsplash_iD5aVJFCXJg.png">
-     <div class="item">
-          <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
-              <header>Starting from</header>
-                    <p>2.0 Eth</p>
-                    <h4>Remaining time</h4>
-                    <aside>02:57:10</aside>
-                    <div class="little">
-                        <img src="assets/pictures/little2.png">
-                    </div>
-                    <div class="tem">
-                        <h5>Isolation</h5>
-                        <a href="#">Place Bid</a>
-                        <h6>Total Bidders</h6>
-                        <img src="assets/pictures/Group 6880.png">
-                        <p>3 Users</p>
-                    </div>
-                    </div>
-            </div>
-            <div class="flex-item"><img src="assets/pictures/unsplash_wlxJ4idMTUk.png">
+              <img src="assets/pictures/unsplash_bU8TeXhsPcY.png">
+              <div class="item">
+                  <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
+                  <header>Starting from</header>
+                  <p>2.0 Eth</p>
+                  <h4>Remaining time</h4>
+                  <aside>02:57:10</aside>
+                  <div class="tem">
+                       <h5>Ismorphic Design</h5>
+                       <a href="">Place Bid</a>
+                       <h6>Total Bidders</h6>
+                       <img src="assets/pictures/Group 6879.png">
+                       <p>2 Users</p>
+                  </div>
+                  </div>
+          </div>
+          <div class="flex-item"><img src="assets/pictures/unsplash_iD5aVJFCXJg.png">
+   <div class="item">
+        <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
+            <header>Starting from</header>
+                  <p>2.0 Eth</p>
+                  <h4>Remaining time</h4>
+                  <aside>02:57:10</aside>
+                  <div class="little">
+                      <img src="assets/pictures/little2.png">
+                  </div>
+                  <div class="tem">
+                      <h5>Isolation</h5>
+                      <a href="">Place Bid</a>
+                      <h6>Total Bidders</h6>
+                      <img src="assets/pictures/Group 6880.png">
+                      <p>3 Users</p>
+                  </div>
+                  </div>
+          </div>
+          <div class="flex-item"><img src="assets/pictures/unsplash_wlxJ4idMTUk.png">
 
-                <div class="item">
-                    <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
-                    <header>Starting from</header>
-                    <p>2.0 Eth</p>
-                    <h4>Remaining time</h4>
-                    <aside>02:57:10</aside>
-                    <div class="little">
-                        <img src="assets/pictures/little1.png">
-                    </div>
-                    <div class="tem">
-                        <h5>Face Of Many Colours</h5>
-                        <a href="#">Place Bid</a>
-                        <h6>Total Bidders</h6>
-                        <img src="assets/pictures/Group 6879.png">
-                        <p>2 Users</p>
-                    </div>
-                    </div>
-            </div>  
-        </div>
-    </div>
-    <h4 id="it"> What you need to know</h4>
-        <article>
-       <div class="text">
-        <img src="assets/pictures/Ikbal 2.png">
-       </div>
-       <div class="tex">
-        <h6>NFT</h6>
-        <p>
-        An NFT, which stands for non-fungible token, is a <br>
-        unique unit of data employing technology that <br>
-        allows digital content from videos to songs to <br>
-        images to become logged and authenticated on <br>
-        cryptocurrency blockchains, primarily Ethereum.
-        </p>
-        <a href="">Connect Wallet</a>
-       </div>
-        </article>
-        <h5 id="top">Top Artists</h5>
-        <div id="section">
-            <div class="flex-container">
-                <div class="flex-item">
-                    <img src="assets/pictures/new1.png">
-                    <div class="items">
-                        <header>Starting from</header>
-                        <p>3.0 Eth</p>
-                        <img src="assets/pictures/circle1.png" alt="Eth coin">
-                        <div class="tems">
-                             <h5>Maria Valeskova</h5>
-                             <p>12K Followers</p>
-                             <a href="#">Place Bid</a>
-                        </div>
-                        </div>
-                </div>
-                <div class="flex-item">
-                    <img src="assets/pictures/new2.png">
-                    <div class="items">
-                        <img src="assets/pictures/circle2.png" alt="Eth coin">
-                        <header>Starting from</header>
-                        <p>0.8 Eth</p>
-                        <div class="tems">
-                            <h5>Jordan Pickford</h5>
-                            <p>34K Followers</p>
-                            <a href="#">Place Bid</a>
-                        </div>
-                        </div>
-                </div>
-                <div class="flex-item">
-                    <img src="assets/pictures/new3.png">
-                    <div class="items">
-                        <img src="assets/pictures/circle3.png" alt="Eth coin">
-                        <header>Starting from</header>
-                        <p>5.0 Eth</p>
-                        <div class="tems">
-                            <h5>Zarhir Yusuf</h5>
-                            <p>54K Followers</p>
-                            <a href="">Place Bid</a>
-                        </div>
-                        </div>
-                </div>  
-            </div>
-        </div>
-    </div>
-    <footer>
-            <div id="brand">
-            <img src="assets/pictures/badge.png"><a href="">Versetolia</a>
-        <p>All amazing art of the <br>world here</p>
-    </div>
-        <div id="red">
-        <ul>
-        <h2><a href="">Marketplace</a></h2>
-        <li><a href="">All NFTs</a></li>
-        <li><a href="">Top Artist</a></li>
-        <li><a href="">Top Artworks</a></li>
-        <li><a href="">Connect Wallet</a></li>
-        </ul>
-    </div>
-    <div id="ret">
-        <ul>
-        <h2><a href="">Quicklinks</a></h2>
-        <li><a href="">Market</a></li> 
-        <li><a href="">Gallery</a></li> 
-        <li><a href="">How it works</a></li> 
-        <li><a href="">Community</a></li>
-        </ul>
-    </div>
-    <div id="info">
-        <h2>Subscribe  to our Newsletter</h2>
-        <input type="email" name="email" id="email_input" placeholder="Email Address">
-        <p>www.versetolia.io</p>
-    </div>
-    <div id="color">
+              <div class="item">
+                  <img src="assets/pictures/Etherium-2.png" alt="Eth coin">
+                  <header>Starting from</header>
+                  <p>2.0 Eth</p>
+                  <h4>Remaining time</h4>
+                  <aside>02:57:10</aside>
+                  <div class="little">
+                      <img src="assets/pictures/little1.png">
+                  </div>
+                  <div class="tem">
+                      <h5>Face Of Many Colours</h5>
+                      <a href="">Place Bid</a>
+                      <h6>Total Bidders</h6>
+                      <img src="assets/pictures/Group 6879.png">
+                      <p>2 Users</p>
+                  </div>
+                  </div>
+          </div>  
+      </div>
+  </div>
+  <h4 id="it"> What you need to know</h4>
+      <article>
+     <div class="text">
+      <img src="assets/pictures/Ikbal 2.png">
+     </div>
+     <div class="tex">
+      <h6>NFT</h6>
+      <p>
+      An NFT, which stands for non-fungible token, is a <br>
+      unique unit of data employing technology that <br>
+      allows digital content from videos to songs to <br>
+      images to become logged and authenticated on <br>
+      cryptocurrency blockchains, primarily Ethereum.
+      </p>
+      <a href="">Connect Wallet</a>
+     </div>
+      </article>
+      <h5 id="top">Top Artists</h5>
+      <div id="section">
+          <div class="flex-container">
+              <div class="flex-item">
+                  <img src="assets/pictures/new1.png">
+                  <div class="items">
+                      <header>Starting from</header>
+                      <p>3.0 Eth</p>
+                      <img src="assets/pictures/circle1.png" alt="Eth coin">
+                      <div class="tems">
+                           <h5>Maria Valeskova</h5>
+                           <p>12K Followers</p>
+                           <a href="#">Place Bid</a>
+                      </div>
+                      </div>
+              </div>
+              <div class="flex-item">
+                  <img src="assets/pictures/new2.png">
+                  <div class="items">
+                      <img src="assets/pictures/circle2.png" alt="Eth coin">
+                      <header>Starting from</header>
+                      <p>0.8 Eth</p>
+                      <div class="tems">
+                          <h5>Jordan Pickford</h5>
+                          <p>34K Followers</p>
+                          <a href="#">Place Bid</a>
+                      </div>
+                      </div>
+              </div>
+              <div class="flex-item">
+                  <img src="assets/pictures/new3.png">
+                  <div class="items">
+                      <img src="assets/pictures/circle3.png" alt="Eth coin">
+                      <header>Starting from</header>
+                      <p>5.0 Eth</p>
+                      <div class="tems">
+                          <h5>Zarhir Yusuf</h5>
+                          <p>54K Followers</p>
+                          <a href="">Place Bid</a>
+                      </div>
+                      </div>
+              </div>  
+          </div>
+      </div>
+  </div>
+  <footer>
+          <div id="brand">
+          <img src="assets/pictures/badge.png"><a href="">Versetolia</a>
+      <p>All amazing art of the <br>world here</p>
+  </div>
+      <div id="red">
+      <ul>
+      <h2><a href="">Marketplace</a></h2>
+      <li><a href="">All NFTs</a></li>
+      <li><a href="">Top Artist</a></li>
+      <li><a href="">Top Artworks</a></li>
+      <li><a href="">Connect Wallet</a></li>
+      </ul>
+  </div>
+  <div id="ret">
+      <ul>
+      <h2><a href="">Quicklinks</a></h2>
+      <li><a href="">Market</a></li> 
+      <li><a href="">Gallery</a></li> 
+      <li><a href="">How it works</a></li> 
+      <li><a href="">Community</a></li>
+      </ul>
+  </div>
+  <div id="info">
+      <h2>Subscribe  to our Newsletter</h2>
+      <input type="email" name="email" id="email_input" placeholder="Email Address">
+      <p>www.versetolia.io</p>
+  </div>
+  <div id="color">
 
-    </div>
-    </footer>
+  </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    

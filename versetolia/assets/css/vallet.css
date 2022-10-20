@@ -1,13 +1,13 @@
+*
 body{
     margin: 0;
     padding: 0;
     background-color: white;
     box-sizing: border-box;
 }
-nav {
+#nav {
     height: 184px;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-evenly
 }
@@ -91,6 +91,7 @@ section{
     background-color: purple;
     color: white;
     height: 510px;
+    top: -55px;
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
@@ -113,27 +114,38 @@ section{
 #demo{
     position: absolute;
     right: 98px;
-    top: 6px;
+    top: 36px;
     font-size: 30px;
 }
-h1 {
+#di {
+    font-weight: 600;
+    font-family: playfair display;
+    margin-bottom: 0px;
+    line-height: 1.2;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+#ed {
+    margin-top: 0; 
+    margin-bottom: 0;
     font-weight: 700 !important;
     font-family: playfair display !important;
 }
 #demo p {
     font-family: 'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    margin-top: -23px;
-} 
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .search-bar {
     width: 100%;
     max-width: 700px;
     background: white;
     display: flex;
-    height: 35px;
     align-items: center;
     border-radius: 7px;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 .search-bar input {
     background: white;
@@ -161,17 +173,17 @@ h1 {
     top: -4px;
 }
 #box {
-    border: 3px solid #dcdcdc3d;
+    border: 3px solid #ffffff4d;
     width: 340px;
     text-align: center;
     position: absolute;
     right: 129px;
     height: 162px;
-    bottom: -100px;
-    background-color: #dcdcdc3d;
+    bottom: -65px;
+    background-color: #ffffff4d;
     padding: 14px;
     border-radius: 15px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(6px);
 }
 #box img{
     height: 200px;
@@ -201,17 +213,16 @@ h1 {
     left: -129px;
     top: 55px;
 }
-h2 {
+#yen {
     font-family: playfair display !important;
-    margin-bottom: -25px  !important;
-    padding: 0 !important;
-    position: relative !important;
-    top: -24px !important;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
 #box p{
     font-family: 'poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h3 {
+}#three {
     color: purple;
     font-size: 40px;
     text-align: center;
@@ -219,6 +230,9 @@ h3 {
     text-align: center;
     position: relative;
     bottom: -105px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
 }
 #col {
     display: flex;
@@ -237,9 +251,9 @@ h3 {
     position: relative;
 }
 .flex-item img{
-    width: 375px;
+    width: 350px;
     position: relative;
-    height: 430px;
+    height: auto;
     margin: 0px;
 }
 .item {
@@ -247,7 +261,7 @@ h3 {
     bottom: -23px;
     background-color: #ffffff4d;
     backdrop-filter: blur(6px);
-    width: 375px;
+    width: 100%;
     height: 174px;
     left: 0px;
     border-radius: 30px;
@@ -270,6 +284,8 @@ h3 {
     font-weight: 600;
     font-family: poppins;
     line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 27px;
     
 }
 .item img {
@@ -291,7 +307,7 @@ h3 {
 .item aside {
     position: absolute;
     right: 33px;
-    bottom: 62px;
+    bottom: 55px;
     font-size: 25px;
     font-family: Poppins, Helvetica, sans-serif;
     font-weight: 600;
@@ -299,7 +315,7 @@ h3 {
 .tem {
     background-color: purple;
     color: white;
-    width: 375px;
+    width: 100%;
     height: 185px;
     position: absolute;
     bottom: -135px;
@@ -341,6 +357,7 @@ h3 {
     font-size: 13px;
     font-family: poppins;
     font-weight: 500;
+    bottom: 4px;
 }
 .tem a:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.842),0 17px 50px 0 ;
@@ -348,13 +365,17 @@ h3 {
 .tem h6{
     position: absolute;
     bottom: 30px;
-    left: 19px;
+    left: 16px;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 27px;
 }
 .little img {
     width: 45px;
     position: absolute;
-    top: -260px;
-    right: 25px;
+    top: -222px;
+    right: 20px;
 }
 #it {
     color: purple;
@@ -431,7 +452,7 @@ article {
     bottom: -23px;
     background-color: #ffffff4d;
     backdrop-filter: blur(6px);
-    width: 375px;
+    width: 100%;
     height: 174px;
     left: 0px;
     border-radius: 30px;
@@ -461,12 +482,14 @@ article {
     font-weight: 600;
     font-family: poppins;
     line-height: 1.7;
+    margin-bottom: 30px;
+    margin-top: 0px;
     
 }
 .tems {
     background-color: purple;
     color: white;
-    width: 375px;
+    width: 100%;
     height: 185px;
     position: absolute;
     bottom: -135px;
@@ -555,7 +578,7 @@ footer{
     font-family: poppins;
     font-weight: 400;
     position: absolute;
-    bottom: -40px;
+    bottom: -50px;
     left: 80px;
 }
 #tab {
@@ -641,7 +664,27 @@ footer{
     bottom: -19px;
     height: 20px;
 }
-@media screen and (max-width:600px) {
-
+@media screen and (max-width:700px) {
+    #nav {
+        display: none;
+    }
+    .flex-item img {
+        width: 270px;
+    }
+    .flex-container {
+        display: flex;
+    }
+    .tems {
+        width: 270px;
+    }
+    .tem {
+        width: 270px;
+    }
+}
+@media screen and (min-width:600px) {
+     
+ .navbar.bg-light.fixed-top {
+        display: none !important;
+    }
     
 }
